@@ -38,7 +38,7 @@ bin/kafka-console-consumer.sh \
 START CONSOLE CONSUMER AND READ FROM SPECIFIC PARTITION
 bin/kafka-console-consumer.sh \
 --bootstrap-server localhost:9092 \
---partition 4 \
+--partition 1 \
 --from-beginning \
 --topic numbers
 
